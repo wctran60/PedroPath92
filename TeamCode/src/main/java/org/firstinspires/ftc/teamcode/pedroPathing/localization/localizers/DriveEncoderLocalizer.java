@@ -60,10 +60,10 @@ public class DriveEncoderLocalizer extends Localizer { // todo: make drive encod
         hardwareMap = map;
 
         // TODO: replace these with your encoder ports
-        leftFront = new Encoder(hardwareMap.get(DcMotorEx.class, "leftFront"));
-        rightFront = new Encoder(hardwareMap.get(DcMotorEx.class, "rightFront"));
-        leftRear = new Encoder(hardwareMap.get(DcMotorEx.class, "leftRear"));
-        rightRear = new Encoder(hardwareMap.get(DcMotorEx.class, "rightRear"));
+        leftFront = new Encoder(hardwareMap.get(DcMotorEx.class, "LFront_Motor"));
+        rightFront = new Encoder(hardwareMap.get(DcMotorEx.class, "RFront_Motor"));
+        leftRear = new Encoder(hardwareMap.get(DcMotorEx.class, "LBack_Motor"));
+        rightRear = new Encoder(hardwareMap.get(DcMotorEx.class, "RBack_Motor"));
 
         // TODO: reverse any encoders necessary
         leftFront.setDirection(Encoder.REVERSE);
