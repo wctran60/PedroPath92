@@ -30,7 +30,6 @@
 package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.hardware.kauailabs.NavxMicroNavigationSensor;
-import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.Gyroscope;
@@ -52,7 +51,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.Orientation;
  */
 @TeleOp(name = "Sensor: KL navX Micro 1", group = "Sensor")
 //@Disabled
-public class SensorKLNavxMicroTest extends LinearOpMode {
+public class TestSensorKLNavxMicro extends LinearOpMode {
 
     /** In this sample, for illustration purposes we use two interfaces on the one gyro object.
      * That's likely atypical: you'll probably use one or the other in any given situation,
